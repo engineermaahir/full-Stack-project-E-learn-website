@@ -3,6 +3,9 @@ import AboutImg from '../images/AboutImg.jpg'; // replace with your image path
 const About = () => {
   return (
     <section className="min-h-screen px-6 py-16 bg-white flex flex-col md:flex-row items-center justify-center space-x-20 gap-12">
+       <div className="md:w-[400px]">
+        <img src={AboutImg} alt="About MaahiTech" className="w-full rounded-md object-cover" />
+      </div>
       {/* Left Content */}
       <div className="md:w-1/2">
         <h4 className="text-sm font-semibold text-gray-500 uppercase">About <span className="text-2xl font-bold text-red-400">MaahiTech</span></h4>
@@ -21,9 +24,7 @@ const About = () => {
       </div>
 
       {/* Right Image */}
-      <div className="md:w-[400px]">
-        <img src={AboutImg} alt="About MaahiTech" className="w-full rounded-md object-cover" />
-      </div>
+     
     </section>
   );
 };

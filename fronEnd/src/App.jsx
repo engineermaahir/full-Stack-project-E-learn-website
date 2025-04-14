@@ -11,9 +11,9 @@ function App() {
     <>
     <Header/>
     <HeroSection/>
-    <Services/>
-    <Courses/>
     <About/>
+    <Courses/>
+    <Services/>
     <Contact/>
     <Footer/>
     </>
